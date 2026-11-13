@@ -3,8 +3,9 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 
 # --- TODO (see TODO.md): decide between the IMDEA and the personal address, then fill this in.
-# Left blank on purpose -- do NOT publish a real address until you've chosen one.
-email:
+# Left out on purpose -- the key itself is omitted (not just blank) so no non-functional
+# mail icon shows up until there's a real address to publish.
+# email:
 
 github_username: jesusomarlacruz
 
@@ -12,8 +13,7 @@ github_username: jesusomarlacruz
 # https://scholar.google.com/citations?user=<THIS_PART>)
 scholar_userid:
 
-# TODO: fill in your ORCID iD (e.g. 0000-0002-1825-0097)
-orcid_id:
+orcid_id: 0000-0002-6641-2003
 
 # TODO: fill in your dblp person page, e.g. https://dblp.org/pid/XX/XXXX.html
 dblp_url:
@@ -26,10 +26,6 @@ linkedin_username:
 # first successful build (see TODO.md) and update it if the generated filename differs.
 cv_pdf: /assets/rendercv/rendercv_output/Jesus_Omar_Lacruz_CV.pdf
 
-rss_icon: true # comment this line to hide the RSS icon
-
-work_url: # IMDEA profile page, added as a custom social below instead (work_url has no icon customization)
-
 # --- Custom socials (any key name other than the built-ins above) ---
 
 # IMDEA Networks Institute profile page
@@ -37,9 +33,3 @@ imdea_profile:
   logo: fa-solid fa-building-columns
   title: IMDEA Networks Institute
   url: https://networks.imdea.org/team/imdea-networks-team/people/jesus-omar-lacruz/
-
-# Wireless Networking Group's GitHub organization (platform/tool repos)
-group_github:
-  logo: fa-brands fa-github
-  title: IMDEA Networks WNG (GitHub)
-  url: https://github.com/IMDEANetworksWNG

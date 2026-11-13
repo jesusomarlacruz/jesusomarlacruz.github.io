@@ -1,0 +1,10 @@
+{%- comment -%}
+  Local override hook (see docs/CUSTOMIZE.md "Adding a new publication"):
+  the gem-owned bib.liquid layout includes this file for every entry, right
+  after building the venue text, with `entry` in scope. We use it to show a
+  Journal / Magazine / Conference / Demo / Patent badge, driven by the custom
+  `pub_type` bibtex field set on every entry in _bibliography/papers.bib.
+{%- endcomment -%}
+{%- if entry.pub_type -%}
+  {%- capture entrytype -%}{{ entrytype }} <span class="badge">{{ entry.pub_type }}</span>{%- endcapture -%}
+{%- endif -%}

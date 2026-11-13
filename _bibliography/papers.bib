@@ -1,115 +1,553 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+%% ---------------------------------------------------------------------------
+%% Jesus Omar Lacruz -- publications
+%%
+%% Source of truth: this file. See MAINTENANCE.md for how to add an entry.
+%%
+%% Custom fields used here (see _config.yml `filtered_bibtex_keywords` and
+%% `_includes/hook/bib.liquid`):
+%%   abbr      -- short venue tag shown as a badge to the left of the entry
+%%   pub_type  -- Journal / Magazine / Conference / Demo / Patent (rendered as
+%%                a second badge by the local hook in _includes/hook/bib.liquid)
+%%   selected  -- shows the entry in the About page's "Selected publications"
+%%   code      -- link to the companion platform/code repository, where one exists
+%%   award,
+%%   award_name -- award badge text for award-winning papers
+%%
+%% DOIs were only added after verifying each one resolves to the correct paper
+%% (checked against title, venue, year and, in two cases, the exact page range)
+%% via the Crossref API. Two entries (madani2021practical, pegoraro2023patent)
+%% have no DOI -- USENIX NSDI papers and patents are not DOI-registered -- so a
+%% verified `url` is used instead. See TODO.md for anything left unverified.
+%% ---------------------------------------------------------------------------
 
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@article{sharma2026dft,
+  abbr      = {Comm. Lett.},
+  pub_type  = {Journal},
+  title     = {DFT-Based Spectral Precoding for Scalable Unique-Word OFDM},
+  author    = {Sharma, S. and Shah, S. W. H. and Lacruz, J. O. and Widmer, J.},
+  journal   = {IEEE Communications Letters},
+  volume    = {30},
+  pages     = {2173--2177},
+  year      = {2026},
+  doi       = {10.1109/lcomm.2026.3698599},
+  html      = {https://doi.org/10.1109/lcomm.2026.3698599}
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+@article{bhat2026mmhsense,
+  abbr      = {Access},
+  pub_type  = {Journal},
+  title     = {mmHSense: Multi-Modal and Distributed mmWave ISAC Datasets for Human Sensing},
+  author    = {Bhat, N. N. and Karnaukh, M. and Vandenbroeke, S. and Lemoine, W. and Struye, J. and Kumar, S. and Moghaddam, M. H. and Lacruz, J. O. and Widmer, J. and Berkvens, R. and Famaey, J.},
+  journal   = {IEEE Access},
+  volume    = {14},
+  pages     = {69961--69971},
+  year      = {2026},
+  doi       = {10.1109/access.2026.3691174},
+  html      = {https://doi.org/10.1109/access.2026.3691174}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+@article{bhat2026mmgan,
+  abbr      = {OJ-COMS},
+  pub_type  = {Journal},
+  title     = {mmGAN: Semi-Supervised GAN for Improved Gesture Recognition in mmWave ISAC Systems},
+  author    = {Bhat, N. N. and Kumar, S. and Moghaddam, M. H. and Struye, J. and Lacruz, J. O. and Pegoraro, J. and Widmer, J. and Berkvens, R. and Famaey, J.},
+  journal   = {IEEE Open Journal of the Communications Society},
+  volume    = {7},
+  pages     = {95--117},
+  year      = {2026},
+  doi       = {10.1109/ojcoms.2025.3649235},
+  html      = {https://doi.org/10.1109/ojcoms.2025.3649235}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
+@article{pegoraro2025disc,
+  abbr      = {ComMag},
+  pub_type  = {Magazine},
+  selected  = {true},
+  title     = {DISC: A Dataset for Integrated Sensing and Communications in mmWave Systems},
+  author    = {Pegoraro, J. and Saucedo, P. and Lacruz, J. O. and Rossi, M. and Widmer, J.},
+  journal   = {IEEE Communications Magazine},
+  volume    = {63},
+  number    = {10},
+  pages     = {94--100},
+  month     = oct,
+  year      = {2025},
+  doi       = {10.1109/mcom.002.2400687},
+  html      = {https://doi.org/10.1109/mcom.002.2400687}
 }
 
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
+@article{keskin2025fundamental,
+  abbr      = {TWC},
+  pub_type  = {Journal},
+  selected  = {true},
+  title     = {Fundamental Trade-Offs in Monostatic ISAC: A Holistic Investigation Toward 6G},
+  author    = {Keskin, M. F. and Carina, M. M. and Lacruz, J. O. and Eriksson, M. O. and Giorgetti, A. and Widmer, J. and Wymeersch, H.},
+  journal   = {IEEE Transactions on Wireless Communications},
+  volume    = {24},
+  number    = {9},
+  pages     = {7856--7873},
+  month     = sep,
+  year      = {2025},
+  doi       = {10.1109/twc.2025.3563197},
+  html      = {https://doi.org/10.1109/twc.2025.3563197}
+}
+
+@article{wu2024sensing,
+  abbr      = {SPM},
+  pub_type  = {Magazine},
+  title     = {Sensing in Bistatic ISAC Systems with Clock Asynchronism: A Signal Processing Perspective},
+  author    = {Wu, K. and Pegoraro, J. and Meneghello, F. and Zhang, J. A. and Lacruz, J. O. and Widmer, J. and Restuccia, F. and Rossi, M. and Huang, X. and Zhang, D. and Caire, G. and Guo, Y. J.},
+  journal   = {IEEE Signal Processing Magazine},
+  volume    = {41},
+  number    = {5},
+  pages     = {31--43},
+  month     = sep,
+  year      = {2024},
+  doi       = {10.1109/msp.2024.3418725},
+  html      = {https://doi.org/10.1109/msp.2024.3418725}
+}
+
+% CV listed the month as "Ago. 2024" -- corrected to Aug. (English).
+@article{pegoraro2024jump,
+  abbr      = {TWC},
+  pub_type  = {Journal},
+  selected  = {true},
+  title     = {JUMP: Joint Communication and Sensing with Unsynchronized Transceivers Made Practical},
+  author    = {Pegoraro, J. and Lacruz, J. O. and Azzino, T. and Mezzavilla, M. and Rossi, M. and Widmer, J. and Rangan, S.},
+  journal   = {IEEE Transactions on Wireless Communications},
+  volume    = {23},
   number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
+  pages     = {9759--9775},
+  month     = aug,
+  year      = {2024},
+  doi       = {10.1109/twc.2024.3365853},
+  html      = {https://doi.org/10.1109/twc.2024.3365853}
 }
 
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
+@article{pegoraro2024rapid,
+  abbr      = {TMC},
+  pub_type  = {Journal},
+  title     = {RAPID: Retrofitting IEEE 802.11ay Access Points for Indoor Human Detection and Sensing},
+  author    = {Pegoraro, J. and Lacruz, J. O. and Meneghello, F. and Bashirov, E. and Rossi, M. and Widmer, J.},
+  journal   = {IEEE Transactions on Mobile Computing},
+  volume    = {23},
+  number    = {5},
+  pages     = {4501--4519},
+  month     = may,
+  year      = {2024},
+  doi       = {10.1109/tmc.2023.3291882},
+  html      = {https://doi.org/10.1109/tmc.2023.3291882}
 }
 
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
+@article{lacruz2023scalable,
+  abbr      = {TMC},
+  pub_type  = {Journal},
+  title     = {Scalable Phase-Coherent Beam-Training for Dense Millimeter-Wave Networks},
+  author    = {Lacruz, J. O. and Garcia, D. and Jiménez, P. and Palacios, J. and Ruiz, R. and Widmer, J.},
+  journal   = {IEEE Transactions on Mobile Computing},
+  volume    = {22},
+  number    = {4},
+  pages     = {2353--2369},
+  month     = apr,
+  year      = {2023},
+  doi       = {10.1109/tmc.2021.3122584},
+  html      = {https://doi.org/10.1109/tmc.2021.3122584}
 }
 
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
+@article{lacruz2022mimorph,
+  abbr      = {GetMobile},
+  pub_type  = {Magazine},
+  title     = {MIMORPH: A General-Purpose Experimentation Platform for sub-6 GHz and mmWave Frequency Bands},
+  author    = {Lacruz, J. O. and Ruiz, R. and Widmer, J.},
+  journal   = {GetMobile: Mobile Computing and Communications},
+  volume    = {26},
+  number    = {1},
+  pages     = {5--8},
+  month     = may,
+  year      = {2022},
+  doi       = {10.1145/3539668.3539670},
+  html      = {https://doi.org/10.1145/3539668.3539670},
+  code      = {https://github.com/IMDEANetworksWNG/MIMORPH}
 }
 
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+% CV listed the publisher as "Elseiver" -- corrected to Elsevier.
+@article{garcia2022modelfree,
+  abbr      = {Comput. Commun.},
+  pub_type  = {Journal},
+  title     = {Model-Free Machine Learning of Wireless SISO/MIMO Communications},
+  author    = {García, D. and Lacruz, J. O. and Badini, D. and De Donno, D. and Widmer, J.},
+  journal   = {Computer Communications},
+  volume    = {181},
+  pages     = {192--202},
+  month     = jan,
+  year      = {2022},
+  publisher = {Elsevier},
+  doi       = {10.1016/j.comcom.2021.09.033},
+  html      = {https://doi.org/10.1016/j.comcom.2021.09.033}
+}
+
+@article{bartoletti2021positioning,
+  abbr      = {ComMag},
+  pub_type  = {Magazine},
+  title     = {Positioning and Sensing for Vehicular Safety Applications in 5G and Beyond},
+  author    = {Bartoletti, S. and Wymeersch, H. and Mach, T. and Brunnegard, O. and Giustiniano, D. and Hammarberg, P. and Keskin, M. F. and Lacruz, J. O. and Razavi, S. M. and Ronnblom, J. and Tufvesson, F. and Widmer, J. and Melazzi, N. B.},
+  journal   = {IEEE Communications Magazine},
+  volume    = {59},
+  number    = {11},
+  pages     = {15--21},
+  month     = dec,
+  year      = {2021},
+  doi       = {10.1109/mcom.011.2100339},
+  html      = {https://doi.org/10.1109/mcom.011.2100339}
+}
+
+% CV listed this as "2021 ... (Dec. 2020)" -- Crossref's registered publication date for
+% this DOI is March 15, 2021 (Vol. 24, No. 4), so 2021/March is used here and the Dec. 2020
+% reference was dropped as inconsistent.
+@article{lacruz2021getmobile,
+  abbr      = {GetMobile},
+  pub_type  = {Magazine},
+  title     = {High-Speed Millimeter-Wave Mobile Experimentation on Software-Defined Radios},
+  author    = {Lacruz, J. O. and Garcia, D. and Jiménez, P. and Palacios, J. and Widmer, J.},
+  journal   = {GetMobile: Mobile Computing and Communications},
+  volume    = {24},
+  number    = {4},
+  pages     = {39--42},
+  month     = mar,
+  year      = {2021},
+  doi       = {10.1145/3457356.3457368},
+  html      = {https://doi.org/10.1145/3457356.3457368}
+}
+
+% CV listed the author as "Catal\`a" -- corrected the accent to Català.
+@article{catala2019second,
+  abbr      = {CSSP},
+  pub_type  = {Journal},
+  title     = {Second Minimum Approximation for Min-Sum Decoders Suitable for High-Rate LDPC Codes},
+  author    = {Català, J. and Lacruz, J. O. and García-Herrero, F. and Valls, J.},
+  journal   = {Circuits, Systems, and Signal Processing},
+  volume    = {38},
+  pages     = {5068--5080},
+  year      = {2019},
+  doi       = {10.1007/s00034-019-01107-z},
+  html      = {https://doi.org/10.1007/s00034-019-01107-z}
+}
+
+@article{lacruz2016reduced,
+  abbr      = {TVLSI},
+  pub_type  = {Journal},
+  title     = {Reduced-Complexity Nonbinary LDPC Decoder for High-Order Galois Fields Based on Trellis Min--Max Algorithm},
+  author    = {Lacruz, J. O. and García-Herrero, F. and Canet, M. J. and Valls, J.},
+  journal   = {IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
+  volume    = {24},
+  number    = {8},
+  pages     = {2643--2653},
+  month     = aug,
+  year      = {2016},
+  doi       = {10.1109/tvlsi.2016.2514484},
+  html      = {https://doi.org/10.1109/tvlsi.2016.2514484}
+}
+
+@article{lacruz2016high,
+  abbr      = {TVLSI},
+  pub_type  = {Journal},
+  title     = {High-Performance NB-LDPC Decoder With Reduction of Message Exchange},
+  author    = {Lacruz, J. O. and García-Herrero, F. and Canet, M. J. and Valls, J.},
+  journal   = {IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
+  volume    = {24},
+  number    = {5},
+  pages     = {1950--1961},
+  month     = may,
+  year      = {2016},
+  doi       = {10.1109/tvlsi.2015.2493041},
+  html      = {https://doi.org/10.1109/tvlsi.2015.2493041}
+}
+
+@article{lacruz2015reduction,
+  abbr      = {TVLSI},
+  pub_type  = {Journal},
+  title     = {Reduction of Complexity for Nonbinary LDPC Decoders With Compressed Messages},
+  author    = {Lacruz, J. O. and García-Herrero, F. and Valls, J.},
+  journal   = {IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
+  volume    = {23},
+  number    = {11},
+  pages     = {2676--2679},
+  month     = nov,
+  year      = {2015},
+  doi       = {10.1109/tvlsi.2014.2377194},
+  html      = {https://doi.org/10.1109/tvlsi.2014.2377194}
+}
+
+@article{lacruz2015one,
+  abbr      = {TCAS-I},
+  pub_type  = {Journal},
+  title     = {One Minimum Only Trellis Decoder for Non-Binary Low-Density Parity-Check Codes},
+  author    = {Lacruz, J. O. and García-Herrero, F. and Valls, J. and Declercq, D.},
+  journal   = {IEEE Transactions on Circuits and Systems I: Regular Papers},
+  volume    = {62},
+  number    = {1},
+  pages     = {177--184},
+  month     = jan,
+  year      = {2015},
+  doi       = {10.1109/tcsi.2014.2354753},
+  html      = {https://doi.org/10.1109/tcsi.2014.2354753}
+}
+
+@article{lacruz2015simplified,
+  abbr      = {TVLSI},
+  pub_type  = {Journal},
+  title     = {Simplified Trellis Min--Max Decoder Architecture for Nonbinary Low-Density Parity-Check Codes},
+  author    = {Lacruz, J. O. and García-Herrero, F. and Declercq, D. and Valls, J.},
+  journal   = {IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
+  volume    = {23},
+  number    = {9},
+  pages     = {1783--1792},
+  month     = sep,
+  year      = {2015},
+  doi       = {10.1109/tvlsi.2014.2344113},
+  html      = {https://doi.org/10.1109/tvlsi.2014.2344113}
+}
+
+@inproceedings{ruiz2026demo,
+  abbr      = {MobiSys},
+  pub_type  = {Demo},
+  title     = {Demo: ISAC Real-Time Experimentation Platform},
+  author    = {Ruiz, R. and Canil, M. and Lacruz, J. O. and Widmer, J.},
+  booktitle = {Proceedings of the 24th Annual International Conference on Mobile Systems, Applications and Services (MobiSys) Companion},
+  year      = {2026},
+  doi       = {10.1145/3812835.3814981},
+  html      = {https://doi.org/10.1145/3812835.3814981},
+  award     = {true},
+  award_name = {Best Demo Award (Runner-Up), ACM MobiSys 2026}
+}
+
+@inproceedings{pavan2026compressed,
+  abbr      = {ICC},
+  pub_type  = {Conference},
+  title     = {Compressed Sensing-Driven Near-Field Localization Exploiting Array of Subarrays},
+  author    = {Pavan, S. and Pegoraro, J. and Lorca, J. and Lacruz, J. O. and Widmer, J.},
+  booktitle = {IEEE International Conference on Communications (ICC)},
+  year      = {2026},
+  doi       = {10.1109/icc59461.2026.11587655},
+  html      = {https://doi.org/10.1109/icc59461.2026.11587655}
+}
+
+@inproceedings{lemoine2025wip,
+  abbr      = {WoWMoM},
+  pub_type  = {Conference},
+  title     = {WIP: Distributed Inference for Human Pose Estimation Using mmWave Wi-Fi},
+  author    = {Lemoine, W. and Bhat, N. N. and Struye, J. and Belogaev, A. and Lacruz, J. O. and Widmer, J. and Famaey, J.},
+  booktitle = {IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM)},
+  year      = {2025},
+  doi       = {10.1109/wowmom65615.2025.00031},
+  html      = {https://doi.org/10.1109/wowmom65615.2025.00031}
+}
+
+@inproceedings{ruiz2025helix,
+  abbr      = {MobiSys},
+  pub_type  = {Conference},
+  selected  = {true},
+  title     = {HELIX: High-Speed Real-Time Experimentation Platform for 6G Wireless Networks},
+  author    = {Ruiz, R. and Lacruz, J. O. and Bloessl, B. and Hollick, M. and Widmer, J.},
+  booktitle = {Proceedings of the 23rd Annual International Conference on Mobile Systems, Applications and Services (MobiSys)},
+  year      = {2025},
+  doi       = {10.1145/3711875.3729152},
+  html      = {https://doi.org/10.1145/3711875.3729152},
+  code      = {https://github.com/IMDEANetworksWNG/HELIX}
+}
+
+@inproceedings{pegoraro2024hisac,
+  abbr      = {SenSys},
+  pub_type  = {Conference},
+  title     = {HiSAC: High-Resolution Sensing with Multiband Communication Signals},
+  author    = {Pegoraro, J. and Lacruz, J. O. and Rossi, M. and Widmer, J.},
+  booktitle = {Proceedings of the 22nd ACM Conference on Embedded Networked Sensor Systems (SenSys)},
+  year      = {2024},
+  doi       = {10.1145/3666025.3699357},
+  html      = {https://doi.org/10.1145/3666025.3699357}
+}
+
+@inproceedings{valecha2024angle,
+  abbr      = {WCNC},
+  pub_type  = {Conference},
+  title     = {Angle Estimation Using mmWave RSS Measurements with Enhanced Multipath Information},
+  author    = {Valecha, N. and Lacruz, J. O. and Lentmaier, M. and Widmer, J. and Tufvesson, F.},
+  booktitle = {IEEE Wireless Communications and Networking Conference (WCNC)},
+  year      = {2024},
+  doi       = {10.1109/wcnc57260.2024.10570749},
+  html      = {https://doi.org/10.1109/wcnc57260.2024.10570749}
+}
+
+@inproceedings{canil2023experimental,
+  abbr      = {mmWaveSys},
+  pub_type  = {Conference},
+  title     = {An Experimental Prototype for Multistatic Asynchronous ISAC},
+  author    = {Canil, M. and Pegoraro, J. and Lacruz, J. O. and Mezzavilla, M. and Rossi, M. and Widmer, J. and Rangan, S.},
+  booktitle = {Proceedings of the First ACM Workshop on mmWave Sensing Systems and Applications (mmWaveSys)},
+  year      = {2023},
+  doi       = {10.1145/3628357.3629710},
+  html      = {https://doi.org/10.1145/3628357.3629710}
+}
+
+@inproceedings{grosheva2023signiphy,
+  abbr      = {MobiSys},
+  pub_type  = {Conference},
+  title     = {SIGNiPHY: Reconciling Random Access with Directional Reception for Efficient mmWave WLANs},
+  author    = {Grosheva, N. and Pavan, S. and Lacruz, J. O. and Widmer, J.},
+  booktitle = {Proceedings of the 21st Annual International Conference on Mobile Systems, Applications and Services (MobiSys)},
+  year      = {2023},
+  doi       = {10.1145/3581791.3596860},
+  html      = {https://doi.org/10.1145/3581791.3596860}
+}
+
+@inproceedings{garcia2023highspeed,
+  abbr      = {INFOCOM},
+  pub_type  = {Conference},
+  title     = {High-Speed Machine Learning-Enhanced Receiver for Millimeter-Wave Systems},
+  author    = {Garcia, D. and Ruiz, R. and Lacruz, J. O. and Widmer, J.},
+  booktitle = {IEEE INFOCOM -- IEEE Conference on Computer Communications},
+  year      = {2023},
+  doi       = {10.1109/infocom53939.2023.10229087},
+  html      = {https://doi.org/10.1109/infocom53939.2023.10229087}
+}
+
+@inproceedings{pegoraro2022sparcs,
+  abbr      = {IPSN},
+  pub_type  = {Conference},
+  title     = {SPARCS: A Sparse Recovery Approach for Integrated Communication and Human Sensing in mmWave Systems},
+  author    = {Pegoraro, J. and Lacruz, J. O. and Rossi, M. and Widmer, J.},
+  booktitle = {Proceedings of the 21st ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)},
+  year      = {2022},
+  doi       = {10.1109/ipsn54338.2022.00014},
+  html      = {https://doi.org/10.1109/ipsn54338.2022.00014}
+}
+
+@inproceedings{lacruz2021real,
+  abbr      = {MobiSys},
+  pub_type  = {Conference},
+  selected  = {true},
+  title     = {A Real-Time Experimentation Platform for sub-6 GHz and Millimeter-Wave MIMO Systems},
+  author    = {Lacruz, J. O. and Ruiz, R. and Widmer, J.},
+  booktitle = {Proceedings of the 19th Annual International Conference on Mobile Systems, Applications, and Services (MobiSys)},
+  pages     = {427--439},
+  year      = {2021},
+  doi       = {10.1145/3458864.3466868},
+  html      = {https://doi.org/10.1145/3458864.3466868},
+  code      = {https://github.com/IMDEANetworksWNG/MIMORPH}
+}
+
+@inproceedings{madani2021practical,
+  abbr      = {NSDI},
+  pub_type  = {Conference},
+  title     = {Practical Null Steering in Millimeter Wave Networks},
+  author    = {Madani, S. and Jog, S. and Lacruz, J. O. and Widmer, J. and Hassanieh, H.},
+  booktitle = {18th USENIX Symposium on Networked Systems Design and Implementation (NSDI)},
+  pages     = {903--921},
+  year      = {2021},
+  html      = {https://www.usenix.org/conference/nsdi21/presentation/madani}
+}
+
+@inproceedings{garcia2020mixture,
+  abbr      = {MSWiM},
+  pub_type  = {Conference},
+  title     = {A Mixture Density Channel Model for Deep Learning-Based Wireless Physical Layer Design},
+  author    = {García, D. and Palacios, J. and Lacruz, J. O. and Widmer, J.},
+  booktitle = {Proceedings of the 23rd International ACM Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems (MSWiM)},
+  pages     = {53--62},
+  year      = {2020},
+  doi       = {10.1145/3416010.3423229},
+  html      = {https://doi.org/10.1145/3416010.3423229},
+  award     = {true},
+  award_name = {Best Paper Award, ACM MSWiM 2020}
+}
+
+@inproceedings{moreno2020open,
+  abbr      = {ISCAS},
+  pub_type  = {Conference},
+  title     = {Open Source RFNoC-Based Testbed for Millimeter-Wave Experimentation Using USRP Software Defined Radios},
+  author    = {Moreno, A. and Lacruz, J. O. and Widmer, J.},
+  booktitle = {IEEE International Symposium on Circuits and Systems (ISCAS)},
+  pages     = {1--5},
+  year      = {2020},
+  doi       = {10.1109/iscas45731.2020.9180885},
+  html      = {https://doi.org/10.1109/iscas45731.2020.9180885},
+  code      = {https://github.com/IMDEANetworksWNG/MISO}
+}
+
+@inproceedings{garcia2020polar,
+  abbr      = {INFOCOM},
+  pub_type  = {Conference},
+  title     = {POLAR: Passive Object Localization with IEEE 802.11ad Using Phased Antenna Arrays},
+  author    = {Garcia, D. and Lacruz, J. O. and Jiménez, P. and Widmer, J.},
+  booktitle = {IEEE INFOCOM -- IEEE Conference on Computer Communications},
+  pages     = {1838--1847},
+  year      = {2020},
+  doi       = {10.1109/infocom41043.2020.9155383},
+  html      = {https://doi.org/10.1109/infocom41043.2020.9155383}
+}
+
+@inproceedings{lacruz2020mmflex,
+  abbr      = {MobiSys},
+  pub_type  = {Conference},
+  selected  = {true},
+  title     = {Mm-FLEX: An Open Platform for Millimeter-Wave Mobile Full-Bandwidth Experimentation},
+  author    = {Lacruz, J. O. and Garcia, D. and Jiménez, P. and Palacios, J. and Widmer, J.},
+  booktitle = {Proceedings of the 18th International Conference on Mobile Systems, Applications, and Services (MobiSys)},
+  pages     = {1--13},
+  year      = {2020},
+  doi       = {10.1145/3386901.3389034},
+  html      = {https://doi.org/10.1145/3386901.3389034},
+  award     = {true},
+  award_name = {Best Paper Award (Runner-Up), ACM MobiSys 2020}
+}
+
+@inproceedings{lacruz2015a630,
+  abbr      = {ISCAS},
+  pub_type  = {Conference},
+  title     = {A 630 Mbps Non-Binary LDPC Decoder for FPGA},
+  author    = {Lacruz, J. O. and García-Herrero, F. and Canet, M. J. and Valls, J. and Pérez-Pascual, A.},
+  booktitle = {IEEE International Symposium on Circuits and Systems (ISCAS)},
+  pages     = {1989--1992},
+  year      = {2015},
+  doi       = {10.1109/iscas.2015.7169065},
+  html      = {https://doi.org/10.1109/iscas.2015.7169065}
+}
+
+% CV listed the author as "J. Ram\'irez" -- corrected the accent to Ramírez (same
+% PDF-extraction artifact as the García/Jiménez/Català/Pérez fixes).
+@inproceedings{lacruz2014robust,
+  abbr      = {ICASSP},
+  pub_type  = {Conference},
+  title     = {Robust Sparse Channel Estimation for OFDM System Using an Iterative Algorithm Based on Complex Median},
+  author    = {Lacruz, J. O. and Ramírez, J. and Paredes, J.},
+  booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages     = {6429--6433},
+  year      = {2014},
+  doi       = {10.1109/icassp.2014.6854842},
+  html      = {https://doi.org/10.1109/icassp.2014.6854842}
+}
+
+@inproceedings{li2013low,
+  abbr      = {Asilomar},
+  pub_type  = {Conference},
+  title     = {Low Latency T-EMS Decoder for Non-Binary LDPC Codes},
+  author    = {Li, E. and García-Herrero, F. and Declercq, D. and Gunnam, K. and Lacruz, J. O. and Valls, J.},
+  booktitle = {Asilomar Conference on Signals, Systems and Computers},
+  pages     = {831--835},
+  year      = {2013},
+  doi       = {10.1109/acssc.2013.6810404},
+  html      = {https://doi.org/10.1109/acssc.2013.6810404}
+}
+
+@misc{pegoraro2023patent,
+  abbr        = {Patent},
+  pub_type    = {Patent},
+  title       = {Method and System for the Sparse Reconstruction of the Micro-Doppler Spectrum in Joint Communication and Sensing Applications},
+  author      = {Pegoraro, J. and Lacruz, J. O. and Rossi, M. and Widmer, J.},
+  howpublished = {International Patent Application WO 2023/214252 A1 (priority: Italian Patent Application no. 102022000008906)},
+  year        = {2023},
+  month       = nov,
+  html        = {https://patents.google.com/patent/WO2023214252A1/en}
 }

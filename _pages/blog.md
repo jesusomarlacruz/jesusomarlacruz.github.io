@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog/
 title: blog
-nav: true
+nav: false # not part of the requested page set (About/Publications/Platforms/Projects/Service & Teaching/CV); demo _posts removed. Set to true to bring it back.
 nav_order: 1
 pagination:
   enabled: true

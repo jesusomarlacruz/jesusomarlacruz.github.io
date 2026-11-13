@@ -1,7 +1,7 @@
 ---
 layout: page
 title: submenus
-nav: true
+nav: false # only pointed at blog/bookshelf, both disabled above.
 nav_order: 8
 dropdown: true
 children:

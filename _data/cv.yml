@@ -1,189 +1,203 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Jesus Omar Lacruz
+  label: Senior Researcher, Wireless Networking Group, IMDEA Networks Institute
+  email: ""
+  location: Madrid, Spain
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    Senior Researcher in the Wireless Networking Group at IMDEA Networks Institute (Madrid,
+    Spain). Works on high-speed signal processing architectures and FPGA/RFSoC implementations
+    for sub-6 GHz and millimeter-wave MIMO systems, integrated sensing and communication
+    (ISAC), and 6G. Ph.D. in Electronic Engineering (Cum Laude), Universitat
+    Polit&egrave;cnica de Val&egrave;ncia.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+      username: jesusomarlacruz
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: Avenida del Mar Mediterr&aacute;neo, 22
+    city: Legan&eacute;s
+    region: Madrid
+    postalCode: "28918"
+    countryCode: ES
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Universitat Polit&egrave;cnica de Val&egrave;ncia
+        location: Valencia, Spain
+        url: https://www.upv.es/
+        area: Electronic Engineering
+        studyType: Ph.D., Cum Laude
+        start_date: 2013-09
+        end_date: 2016-10
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: Low-complexity algorithms and hardware architectures for Non-Binary LDPC decoders, achieving Giga-rate decoding with high throughput/area efficiency."
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Universitat Polit&egrave;cnica de Val&egrave;ncia
+        location: Valencia, Spain
+        url: https://www.upv.es/
+        area: Electronic Engineering
+        studyType: M.Sc., 9.2/10
+        start_date: 2011-09
+        end_date: 2013-07
         highlights:
-          - Description 1.
-          - Description 2.
+          - "FPGA implementation of DSP and digital communication blocks; system-on-chip architectures; synthesis and verification using VHDL / Verilog."
+
+      - institution: Universidad de Los Andes
+        location: M&eacute;rida, Venezuela
+        url: https://www.ula.ve/
+        area: Electrical Engineering
+        studyType: B.Sc., 7.8/10
+        start_date: 2003-03
+        end_date: 2009-09
+        highlights:
+          - "Analog and digital electronics; communication systems; digital signal processing."
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: IMDEA Networks Institute
+        position: Senior Researcher (Full-time)
+        location: Madrid, Spain
+        start_date: 2024-07
+        end_date: present
         highlights:
-          - Relativity
-          - Description 2.
+          - Leading the Wireless Networks on SoCs sub-group, in charge of the design and development of high-speed signal processing architectures for millimeter-wave (mm-wave) communication systems.
+          - Supervision of Ph.D. students.
+          - PI / co-PI of regional, national, and European projects.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: IMDEA Networks Institute
+        position: Research Engineer (Full-time)
+        location: Madrid, Spain
+        start_date: 2017-10
+        end_date: 2024-07
         highlights:
-          - Description 1.
-          - Description 2.
+          - Leading the design and development of FPGA-based experimentation platforms for multi-Giga-sampling-rate SISO and MIMO mm-wave communication systems.
+          - Signal processing blocks for 5G-NR and WLAN mm-wave systems.
+          - Co-supervising Ph.D. students in the Wireless Networking Group.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Universidad de Los Andes
+        position: Full-time Professor
+        location: M&eacute;rida, Venezuela
+        start_date: 2010-03
+        end_date: 2017-10
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Full-time professor with the Electronic / Communications Department."
+          - "Teaching: Analog / Digital Electronics; Foundations of Communication Systems; Basics of Digital Signal Processing (undergraduate and Master's level)."
+          - Supervising Final Degree Projects.
 
     Awards:
-      - title: Nobel Prize in Physics
+      - title: Best Demo Award (Runner-Up)
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+          - Jesus Omar Lacruz
+        date: 2026
+        awarder: ACM MobiSys 2026
+        summary: '"Demo: ISAC Real-Time Experimentation Platform"'
 
-      - title: Max Planck Medal
+      - title: Best Paper Award (Runner-Up)
         authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - Jesus Omar Lacruz
+        date: 2020
+        awarder: ACM MobiSys 2020
+        summary: '"Mm-FLEX: an open platform for millimeter-wave mobile full-bandwidth experimentation"'
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Best Paper Award
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Jesus Omar Lacruz
+        date: 2020
+        awarder: ACM MSWiM 2020
+        summary: '"A Mixture Density Channel Model for Deep Learning-Based Wireless Physical Layer Design"'
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Positive Evaluation -- Titular de Universidad
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Jesus Omar Lacruz
+        date: 2025-12
+        awarder: ANECA
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Positive Evaluation -- Doctor Contratado
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+          - Jesus Omar Lacruz
+        date: 2022-06
+        awarder: ANECA
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: IoT-ZERO (PI)
+        summary: European Union -- HORIZON-JU-SNS-2024, grant 101292662.
+        start_date: 2026
+        end_date: 2029
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: PRIME-6G (Co-PI)
+        summary: European Union -- HORIZON-JU-SNS-2024, grant 101272485.
+        start_date: 2026
+        end_date: 2029
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: DISCO6-CM (PI)
+        summary: Comunidad de Madrid, TEC-2024COM-360.
+        start_date: 2025
+        end_date: 2027
+
+      - name: MultiX (Co-PI)
+        summary: European Union -- HORIZON-JU-SNS-2024, grant 101119521.
+        start_date: 2025
+        end_date: 2027
+
+      - name: 6th Sense (Co-supervisor)
+        summary: European Union -- MSCA Doctoral Network, grant 101119652. Co-supervisor of 1 Ph.D. student; low-power ISAC architectures.
+        start_date: 2024
+        end_date: 2028
+
+      - name: 6G-ELSA (Research team)
+        summary: Ministerio de Ciencia e Innovaci&oacute;n. Passive, multiband sensing mechanisms.
+        start_date: 2023
+        end_date: 2026
+
+      - name: RISC-6G (Research team)
+        summary: Spanish Government / EU NextGenerationEU, TSI-063000-2021-59. Integration of low-power communication and sensing modules into 6G experimental platforms.
+        start_date: 2022
+        end_date: 2024
+
+      - name: MINTS (Research team, co-supervisor)
+        summary: European Union -- H2020 MSCA-ITN-2019, grant 861222. Co-supervisor of 1 Ph.D. student; mm-wave beam training and interference management.
+        start_date: 2019
+        end_date: 2024
+
+      - name: LOCUS (Research team)
+        summary: European Union -- H2020-ICT-2019-2, grant 871249. Active localization techniques on mm-wave and sub-6 GHz platforms.
+        start_date: 2019
+        end_date: 2023
+
+      - name: REACT-CONTACT (Research team)
+        summary: Comunidad de Madrid, CM-23479. Human-activity estimation algorithms for ISAC systems.
+        start_date: 2020
+        end_date: 2022
+
+      - name: PinPoint 5G+ (Research team)
+        summary: Ministerio de Ciencia, Innovaci&oacute;n y Universidades, RTI2018-094313-B-I00. Localization systems for 5G platforms.
+        start_date: 2019
+        end_date: 2020
+
+      - name: SEARCHLIGHT (Research team)
+        summary: ERC Consolidator Grant, ERC-CG-2013-PE7, grant 617721. mm-wave experimentation platforms.
+        start_date: 2014
+        end_date: 2019
+
+    Service:
+      - company: IEEE Globecom 2026 Workshop -- Sensing-Native Radio Access Networks for 6G
+        position: TPC Co-chair
+      - company: IEEE International Workshop on Signal Processing Systems 2026
+        position: TPC Member
+      - company: 2026 IEEE 1st Annual Integrated Sensing and Communication Conference (ISAC), SS06
+        position: TPC Member
+      - company: ACM SenSys 2026 (Poster Session)
+        position: TPC Member
+      - company: 2026 EuCNC & 6G Summit
+        position: TPC Member
+      - company: "IEEE VTC2024-Fall"
+        position: TPC Member
+      - company: "IEEE VTC2024-Spring"
+        position: TPC Member
+      - company: "IEEE WiSense Workshop, 2024-2026"
+        position: TPC Member
+      - company: "ACM mmWaveSys 2023"
+        position: TPC Member
+      - company: "ACM Emerging Wireless 2022"
+        position: TPC Member

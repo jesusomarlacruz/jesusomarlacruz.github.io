@@ -7,4 +7,4 @@ overrides:
     upstream_path: _sass/_publications.scss
     upstream_sha256: 9428fe340164ef3eb417b31e9858194ada02a4e5afe35da1cd980545bf2452df
     local_sha256: 67759c52df8f75042a9795cec35448b99f4bd7cdf13370b11cf248602090998c
-    acknowledged_at: '2026-11-13'
+    acknowledged_at: "2026-11-13"

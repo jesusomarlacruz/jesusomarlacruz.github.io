@@ -17,7 +17,7 @@ Placeholders and unverified items left for you to fill in or confirm.
 `/assets/rendercv/rendercv_output/Jesus_Omar_Lacruz_CV.pdf`, which
 `.github/workflows/render-cv.yml` should generate from `_data/cv.yml` on push to `main`. **This
 filename is my best guess based on the RenderCV naming convention (name with underscores +
-"_CV.pdf") -- I have not seen the workflow actually run.** After the first push, check the
+"\_CV.pdf") -- I have not seen the workflow actually run.** After the first push, check the
 Action's run and the generated path under `assets/rendercv/rendercv_output/`, and fix the
 `cv_pdf:` value in both files if the real filename differs.
 

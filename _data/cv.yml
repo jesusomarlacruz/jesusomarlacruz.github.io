@@ -1,7 +1,6 @@
 cv:
   name: Jesus Omar Lacruz
   label: Senior Researcher, Wireless Networking Group, IMDEA Networks Institute
-  email: ""
   location: Madrid, Spain
   image: ""
   summary: >
@@ -9,22 +8,22 @@ cv:
     Spain). Works on high-speed signal processing architectures and FPGA/RFSoC implementations
     for sub-6 GHz and millimeter-wave MIMO systems, integrated sensing and communication
     (ISAC), and 6G. Ph.D. in Electronic Engineering (Cum Laude), Universitat
-    Polit&egrave;cnica de Val&egrave;ncia.
+    Politècnica de València.
 
   social_networks:
     - network: GitHub
       username: jesusomarlacruz
 
   address:
-    street: Avenida del Mar Mediterr&aacute;neo, 22
-    city: Legan&eacute;s
+    street: Avenida del Mar Mediterráneo, 22
+    city: Leganés
     region: Madrid
     postalCode: "28918"
     countryCode: ES
 
   sections:
     Education:
-      - institution: Universitat Polit&egrave;cnica de Val&egrave;ncia
+      - institution: Universitat Politècnica de València
         location: Valencia, Spain
         url: https://www.upv.es/
         area: Electronic Engineering
@@ -34,7 +33,7 @@ cv:
         highlights:
           - "Thesis: Low-complexity algorithms and hardware architectures for Non-Binary LDPC decoders, achieving Giga-rate decoding with high throughput/area efficiency."
 
-      - institution: Universitat Polit&egrave;cnica de Val&egrave;ncia
+      - institution: Universitat Politècnica de València
         location: Valencia, Spain
         url: https://www.upv.es/
         area: Electronic Engineering
@@ -45,7 +44,7 @@ cv:
           - "FPGA implementation of DSP and digital communication blocks; system-on-chip architectures; synthesis and verification using VHDL / Verilog."
 
       - institution: Universidad de Los Andes
-        location: M&eacute;rida, Venezuela
+        location: Mérida, Venezuela
         url: https://www.ula.ve/
         area: Electrical Engineering
         studyType: B.Sc., 7.8/10
@@ -77,7 +76,7 @@ cv:
 
       - company: Universidad de Los Andes
         position: Full-time Professor
-        location: M&eacute;rida, Venezuela
+        location: Mérida, Venezuela
         start_date: 2010-03
         end_date: 2017-10
         highlights:
@@ -146,7 +145,7 @@ cv:
         end_date: 2028
 
       - name: 6G-ELSA (Research team)
-        summary: Ministerio de Ciencia e Innovaci&oacute;n. Passive, multiband sensing mechanisms.
+        summary: Ministerio de Ciencia e Innovación. Passive, multiband sensing mechanisms.
         start_date: 2023
         end_date: 2026
 
@@ -171,7 +170,7 @@ cv:
         end_date: 2022
 
       - name: PinPoint 5G+ (Research team)
-        summary: Ministerio de Ciencia, Innovaci&oacute;n y Universidades, RTI2018-094313-B-I00. Localization systems for 5G platforms.
+        summary: Ministerio de Ciencia, Innovación y Universidades, RTI2018-094313-B-I00. Localization systems for 5G platforms.
         start_date: 2019
         end_date: 2020
 

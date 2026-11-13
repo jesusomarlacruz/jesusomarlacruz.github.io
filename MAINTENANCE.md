@@ -22,7 +22,7 @@ bundle exec jekyll serve
    - Author field for yourself as `Lacruz, J. O.` so it gets bolded (matches `scholar:` in
      `_config.yml`)
 3. Optional fields: `selected = {true}` (shows it in the About page's selected list), `code =
-   {https://...}` (adds a Code button, use it when a platform/code repo exists), `doi`/`html`
+{https://...}` (adds a Code button, use it when a platform/code repo exists), `doi`/`html`
    (**only add a DOI you've verified resolves to this exact paper** -- e.g. via
    `https://api.crossref.org/works?query.bibliographic=<title>` -- never guess one), `award` /
    `award_name` for award-winning papers.

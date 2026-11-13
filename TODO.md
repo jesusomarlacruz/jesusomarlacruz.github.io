@@ -4,12 +4,17 @@ Placeholders and unverified items left for you to fill in or confirm.
 
 ## Identity / contact (`_data/socials.yml`)
 
-- **Email** -- left blank on purpose. Decide between the IMDEA and personal address and fill
-  in `email:`. `protect_email: true` is already set in `_config.yml` so it will be obfuscated.
+- **ORCID** -- done: `orcid_id: 0000-0002-6641-2003`.
+- **Email** -- the `email:` key is commented out entirely (not just blank) so no
+  non-functional mail icon shows up. Decide between the IMDEA and personal address,
+  uncomment the line, and fill it in -- `protect_email: true` is already set in
+  `_config.yml` so it will be obfuscated once there's a real address.
 - **Google Scholar user ID** -- `scholar_userid:` is blank.
-- **ORCID iD** -- `orcid_id:` is blank.
 - **dblp** -- `dblp_url:` is blank.
 - **LinkedIn** -- `linkedin_username:` is blank.
+- Removed from the social icon row on request: the RSS icon, the (empty) `work_url`
+  briefcase icon, and the duplicate "IMDEA Networks WNG" GitHub icon (the org's GitHub
+  is still linked from the About page body text and from each Platforms card).
 
 ## CV PDF
 

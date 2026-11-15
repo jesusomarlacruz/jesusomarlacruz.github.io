@@ -5,9 +5,7 @@ Placeholders and unverified items left for you to fill in or confirm.
 ## Group page (`_pages/group.md`)
 
 No photos for anyone in the team table (none were supplied, and I'm not going to guess
-at stock images for real people) -- it's a text-only team table for now. **Anthony
-Sanchez (Research Engineer) has no research direction yet** -- fill in the "TBD" cell.
-The vision
+at stock images for real people) -- it's a text-only team table for now. The vision
 paragraph is my synthesis of the group's actual platform/publication output, not
 something you dictated -- read it over and adjust the wording/emphasis if it doesn't
 match how you'd describe the group's direction yourself.

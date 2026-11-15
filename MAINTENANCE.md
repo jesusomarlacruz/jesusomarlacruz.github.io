@@ -10,6 +10,13 @@ Local preview (no Docker on this machine -- see TODO.md for the one-time setup):
 bundle exec jekyll serve
 ```
 
+## Update the Group page
+
+Edit [`_pages/group.md`](_pages/group.md) directly (the "group" nav page, at `/group/`) --
+it's a plain page, not a collection: the vision paragraph and the team table are both
+inline Markdown/HTML. Add a row to the table for a new student, or edit the vision text
+as the group's direction evolves.
+
 ## Add a paper
 
 1. Open [`_bibliography/papers.bib`](_bibliography/papers.bib) and add a new entry (copy an

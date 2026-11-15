@@ -4,7 +4,7 @@ permalink: /service-teaching/
 title: service & teaching
 description: Teaching, TPC and reviewing service, and Ph.D. supervision.
 nav: true
-nav_order: 5
+nav_order: 6
 calendar: false
 ---
 

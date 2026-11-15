@@ -27,9 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Jesus Omar Lacruz is a Senior Researcher in the Wireless Networking Group at [IMDEA Networks Institute](https://networks.imdea.org/team/imdea-networks-team/people/jesus-omar-lacruz/) (Madrid, Spain). He leads the group's Wireless Networks on SoCs sub-group, working on high-speed signal processing architectures and FPGA/RFSoC implementations for sub-6 GHz and millimeter-wave MIMO systems, and on integrated sensing and communication (ISAC) and 6G. He holds a Ph.D. in Electronic Engineering (Cum Laude) from the Universitat Polit&egrave;cnica de Val&egrave;ncia, where he worked on low-complexity algorithms and hardware architectures for Non-Binary LDPC decoders. Before joining IMDEA Networks in 2017, he was a full-time professor at Universidad de Los Andes (M&eacute;rida, Venezuela) from 2010 to 2017.
+Jesus Omar Lacruz is a Senior Researcher in the Wireless Networking Group at [IMDEA Networks Institute](https://networks.imdea.org/team/imdea-networks-team/people/jesus-omar-lacruz/) (Madrid, Spain), where he leads the Wireless Networks on SoCs Group, working on high-speed signal processing architectures and FPGA/RFSoC implementations for sub-6 GHz and millimeter-wave MIMO systems, and on integrated sensing and communication (ISAC) and 6G. He holds a Ph.D. in Electronic Engineering (Cum Laude) from the Universitat Polit&egrave;cnica de Val&egrave;ncia, where he worked on low-complexity algorithms and hardware architectures for Non-Binary LDPC decoders. Before joining IMDEA Networks in 2017, he was a full-time professor at Universidad de Los Andes (M&eacute;rida, Venezuela) from 2010 to 2017.
 
-The group's platform and tool repositories are at [github.com/IMDEANetworksWNG](https://github.com/IMDEANetworksWNG); see the [Platforms](/platforms/) page on this site for details.
+See the [Group](/group/) page for the team and research vision, and [Platforms](/platforms/) for the experimentation platforms it has built (also at [github.com/IMDEANetworksWNG](https://github.com/IMDEANetworksWNG)).
 
 ### Research interests
 

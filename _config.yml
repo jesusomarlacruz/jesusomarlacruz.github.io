@@ -206,6 +206,11 @@ collections:
     output: true
   projects:
     output: true
+    # Individual platform items still live in the "projects" collection (template
+    # plumbing expects that name), but the Platforms page renamed the public-facing
+    # path -- so give items matching URLs instead of leaking /projects/<slug>/,
+    # which would be confusing next to the separate /projects/ (funded grants) page.
+    permalink: /platforms/:path/
   teachings:
     output: true
 

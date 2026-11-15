@@ -2,6 +2,14 @@
 
 Placeholders and unverified items left for you to fill in or confirm.
 
+## Group page (`_pages/group.md`)
+
+No photos for the three Ph.D. students (none were supplied, and I'm not going to guess
+at stock images for real people) -- it's a text-only team table for now. The vision
+paragraph is my synthesis of the group's actual platform/publication output, not
+something you dictated -- read it over and adjust the wording/emphasis if it doesn't
+match how you'd describe the group's direction yourself.
+
 ## Identity / contact (`_data/socials.yml`)
 
 - **ORCID** -- done: `orcid_id: 0000-0002-6641-2003`.

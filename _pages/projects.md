@@ -2,9 +2,9 @@
 layout: page
 title: platforms
 permalink: /platforms/
-description: FPGA/RFSoC and SDR experimentation platforms developed in the Wireless Networking Group.
+description: FPGA/RFSoC and SDR experimentation platforms developed in the Wireless Networks on SoCs Group.
 nav: true
-nav_order: 3
+nav_order: 4
 horizontal: false
 ---
 

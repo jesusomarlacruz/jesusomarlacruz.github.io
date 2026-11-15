@@ -28,7 +28,7 @@ The group builds the hardware architectures and real-time experimentation platfo
 <tr><td><strong>Sai Pavam Deram</strong></td><td>Ph.D. Student</td><td>Near-field communications; signal processing</td></tr>
 <tr><td><strong>Rafael Ruiz Ortiz</strong></td><td>Ph.D. Student</td><td>System-on-Chip (SoC) design; wireless platform design</td></tr>
 <tr><td><strong>Amir Hossein Mohammad Amri</strong></td><td>Ph.D. Student</td><td>Low-power design; signal processing; neuromorphic architectures</td></tr>
-<tr><td><strong>Anthony Sanchez</strong></td><td>Research Engineer</td><td>TBD</td></tr>
+<tr><td><strong>Anthony Sanchez</strong></td><td>Research Engineer</td><td>Experimental testbed operation; data analysis; FPGA hardware implementation</td></tr>
 </tbody>
 </table>
 </div>

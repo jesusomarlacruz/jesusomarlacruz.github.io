@@ -2,7 +2,7 @@
 layout: page
 permalink: /service-teaching/
 title: service & teaching
-description: Teaching, TPC and reviewing service, and Ph.D. supervision.
+description: Teaching, TPC and reviewing service.
 nav: true
 nav_order: 6
 calendar: false
@@ -31,8 +31,4 @@ Full-time Professor, Electronic / Communications Department, **Universidad de Lo
 
 Active reviewer for: IEEE Transactions on Circuits and Systems I, IEEE Transactions on Circuits and Systems II, IEEE Transactions on VLSI Systems, IEEE Transactions on Networking, IEEE Transactions on Mobile Computing, IEEE Transactions on Wireless Communications, IEEE Communications Magazine, IEEE Journal on Selected Areas in Communications, Elsevier Computer Communications.
 
-## Ph.D. supervision
-
-- Sai Pavam Deram
-- Amir Hossein Mohammad Amri
-- Rafael Ruiz Ortiz
+See the [Group](/group/) page for current Ph.D. student supervision.

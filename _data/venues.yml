@@ -1,9 +1,121 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Venue metadata for the publications page (see _layouts/bib.liquid, a local override
+# that renders `society` and `quartile`/`rank` as a second badge under each entry's venue
+# abbreviation). Keyed by the bibtex `abbr` field used in _bibliography/papers.bib.
+#
+# - society: the sponsoring/publishing body (IEEE, ACM, USENIX, Elsevier, Springer, ...).
+# - quartile: a journal/magazine's SJR "Best Quartile" (Scimago Journal & Country Rank,
+#   scimagojr.com), i.e. the highest quartile among all subject categories it's listed
+#   under for that year. All checked against 2025 data (Scimago's most recent year as of
+#   Nov 2026).
+# - rank: a conference's CORE/ICORE rank (portal.core.edu.au/conf-ranks), i.e. A*/A/B/C.
+#
+# Omitted on purpose, not an oversight -- see MAINTENANCE.md "Venue metadata" and TODO.md:
+# - GetMobile: an ACM SIGMOBILE magazine/newsletter, not indexed on Scimago -- no quartile.
+# - ICC, NSDI, Asilomar: have no current CORE/ICORE letter rank (ICC hasn't been re-ranked
+#   since CORE2018 and is absent from CORE2021/2023/ICORE2026; NSDI and Asilomar have been
+#   classified "National: USA" -- a scope label, not a quality tier -- in every round since
+#   CORE2020). Showing their old/stale letter grade as if it were current would be misleading.
+# - ISAC: brand-new conference (first edition Nov 2026), not yet CORE-ranked.
+# - mmWaveSys: a workshop; CORE doesn't rank it separately from a parent conference.
+#
+# SenSys and IPSN show their last standalone rank (CORE2023, both A*) rather than
+# ICORE2026's "unranked: merged" status -- that's an administrative placeholder while CORE
+# merges SenSys/IPSN/IoTDI into one ranking entry, not a re-evaluation of either venue.
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Comm. Lett.":
+  society: IEEE
+  quartile: Q1
 
-"Vision":
-  color: "#009f36"
+"Access":
+  society: IEEE
+  quartile: Q1
+
+"OJ-COMS":
+  society: IEEE
+  quartile: Q1
+
+"TWC":
+  society: IEEE
+  quartile: Q1
+
+"TMC":
+  society: IEEE
+  quartile: Q1
+
+"Comput. Commun.":
+  society: Elsevier
+  quartile: Q1
+
+"CSSP":
+  society: Springer
+  quartile: Q3
+
+"TVLSI":
+  society: IEEE
+  quartile: Q1
+
+"TCAS-I":
+  society: IEEE
+  quartile: Q1
+
+"ComMag":
+  society: IEEE
+  quartile: Q1
+
+"SPM":
+  society: IEEE
+  quartile: Q1
+
+"GetMobile":
+  society: ACM
+
+"ISAC":
+  society: IEEE
+
+"ICC":
+  society: IEEE
+
+"WoWMoM":
+  society: IEEE
+  rank: "C"
+
+"SenSys":
+  society: ACM
+  rank: "A*"
+
+"WCNC":
+  society: IEEE
+  rank: "B"
+
+"mmWaveSys":
+  society: ACM
+
+"INFOCOM":
+  society: IEEE
+  rank: "A*"
+
+"IPSN":
+  society: "ACM/IEEE"
+  rank: "A*"
+
+"NSDI":
+  society: USENIX
+
+"MSWiM":
+  society: "ACM/IEEE"
+  rank: "A"
+
+"ISCAS":
+  society: IEEE
+  rank: "C"
+
+"ICASSP":
+  society: IEEE
+  rank: "B"
+
+"Asilomar":
+  society: IEEE
+
+"MobiSys":
+  society: ACM
+  rank: "A"

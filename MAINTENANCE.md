@@ -42,6 +42,21 @@ as the group's direction evolves.
    entries don't have one (no conference month was verified; see TODO.md), so they currently sort
    after dated entries in the same year, ordered alphabetically by first author.
 
+## Add/update a venue's society / quartile / CORE rank
+
+[`_data/venues.yml`](_data/venues.yml) is keyed by the same `abbr` value used in
+`_bibliography/papers.bib`. Each entry can set `society` (IEEE, ACM, USENIX, Elsevier,
+Springer, ...), and for a journal/magazine `quartile` (Scimago's SJR Best Quartile for that
+venue -- look it up at scimagojr.com, use the most recent year available) or for a
+conference `rank` (CORE/ICORE rank -- look it up at portal.core.edu.au/conf-ranks, use the
+most recent ranking round). **Only add a quartile/rank you've actually verified on the real
+site for the current year/round** -- omit the field entirely rather than guess or carry
+forward a stale one; see TODO.md "Venue metadata" for venues where this was deliberately
+left blank and why. Rendered as a second badge under the venue abbreviation by the local
+override [`_layouts/bib.liquid`](_layouts/bib.liquid) (tracked in `.al-folio-overrides.yml`,
+run `bundle exec al-folio upgrade overrides diff _layouts/bib.liquid` after a gem update),
+styled by the `.venue-meta` block in `_sass/_publications.scss`.
+
 ## Publications page: Journal/Conference filter buttons
 
 [`_pages/publications.md`](_pages/publications.md) has three buttons (`data-pub-filter="all |

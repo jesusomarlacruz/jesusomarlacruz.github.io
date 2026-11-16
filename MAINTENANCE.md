@@ -65,10 +65,14 @@ before if you bring the page back; set `nav: true` to re-link it.
 
 ## Add/change teaching or service content
 
-Teaching, TPC roles, reviewing, and Ph.D. supervision are all plain Markdown in the body of
+Teaching, TPC roles, and Ph.D. supervision are all plain Markdown in the body of
 [`_pages/teaching.md`](_pages/teaching.md) (the "Service & Teaching" nav page, at
 `/service-teaching/`) -- edit it directly. (There's no `_teachings` collection in use; course
 names are folded into the "Full-time Professor" paragraph as plain text.)
+
+Journal reviewing is intentionally **not** shown on this page -- it's kept only in
+[`_data/cv.yml`](_data/cv.yml)'s `Service` section (the `Journal Reviewer` entry), so it still
+appears on the generated CV PDF without being listed on the website.
 
 ## Re-enabled-if-you-want-them pages
 

@@ -2,15 +2,43 @@
  * Publication and bibliography styles
  *
  * LOCAL OVERRIDE of al_folio_core's _sass/_publications.scss (see
- * docs/ARCHITECTURE.md "Local overrides: your site vs. this repo"). The only
- * change from upstream is `font-weight: 700` on `.author > em` below, so that
- * the site owner's name is bolded (not just underlined) in author lists, per
- * the `scholar:` match in _config.yml. Tracked in .al-folio-overrides.yml --
- * run `bundle exec al-folio upgrade overrides diff _sass/_publications.scss`
+ * docs/ARCHITECTURE.md "Local overrides: your site vs. this repo"). Changes
+ * from upstream: `font-weight: 700` on `.author > em` below, so that the site
+ * owner's name is bolded (not just underlined) in author lists, per the
+ * `scholar:` match in _config.yml; and the `.pub-type-filter` block, styling
+ * the Journal/Conference filter buttons added in _pages/publications.md (see
+ * assets/js/bibsearch.js for the matching behavior). Tracked in
+ * .al-folio-overrides.yml -- run
+ * `bundle exec al-folio upgrade overrides diff _sass/_publications.scss`
  * after a gem update to see what changed upstream.
  ******************************************************************************/
 
 @use "variables" as v;
+
+.pub-type-filter {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+
+  button.btn {
+    color: var(--global-text-color);
+    border: 1px solid var(--global-text-color);
+    background: none;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
+
+    &.active {
+      color: var(--global-card-bg-color);
+      background-color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
+  }
+}
 
 .publications {
   margin-top: 2rem;

@@ -6,5 +6,12 @@ overrides:
     gem_version: 1.0.15
     upstream_path: _sass/_publications.scss
     upstream_sha256: 9428fe340164ef3eb417b31e9858194ada02a4e5afe35da1cd980545bf2452df
-    local_sha256: 67759c52df8f75042a9795cec35448b99f4bd7cdf13370b11cf248602090998c
-    acknowledged_at: "2026-11-13"
+    local_sha256: 84962f7a6e3e87c74fd8a1d883921cd1adf1ff5f238d7791f653d62612e83348
+    acknowledged_at: "2026-11-16"
+  assets/js/bibsearch.js:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: assets/js/bibsearch.js
+    upstream_sha256: 959f7ee592686a73204b936eada490fe07f7bb6b723a8c8ee98266e4a71dd3fb
+    local_sha256: 91882df11876e1d4b0b467d4d1f1a0c242c30e6d48c36d1054524ce7c67219b8
+    acknowledged_at: "2026-11-16"

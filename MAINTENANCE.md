@@ -31,9 +31,29 @@ as the group's direction evolves.
 3. Optional fields: `selected = {true}` (shows it in the About page's selected list), `code =
 {https://...}` (adds a Code button, use it when a platform/code repo exists), `doi`/`html`
    (**only add a DOI you've verified resolves to this exact paper** -- e.g. via
-   `https://api.crossref.org/works?query.bibliographic=<title>` -- never guess one), `award` /
-   `award_name` for award-winning papers.
+   `https://api.crossref.org/works?query.bibliographic=<title>` -- never guess one). For an
+   award-winning paper, set **both** `award` and `award_name` to the same award text (not
+   `award = {true}` -- the `award` field also feeds the page's hidden print-only award block, so
+   a literal `true` would show up when printing/exporting the page).
 4. Optional: a PDF in `assets/pdf/` referenced via `pdf = {filename.pdf}`.
+5. The Publications page sorts entries newest-to-oldest via `sort_by`/`order` in `_config.yml`'s
+   `scholar:` block (`year`, then `month` where set, then author name as a deterministic
+   tiebreaker). Add a verified `month` to a new entry when you have one -- most `@inproceedings`
+   entries don't have one (no conference month was verified; see TODO.md), so they currently sort
+   after dated entries in the same year, ordered alphabetically by first author.
+
+## Publications page: Journal/Conference filter buttons
+
+[`_pages/publications.md`](_pages/publications.md) has three buttons (`data-pub-filter="all |
+journal | conference"`) alongside the existing text search box. They're handled by the local
+override [`assets/js/bibsearch.js`](assets/js/bibsearch.js) (shadows al_folio_core's own copy --
+tracked in `.al-folio-overrides.yml`, run `bundle exec al-folio upgrade overrides diff
+assets/js/bibsearch.js` after a gem update), which narrows the same `.unloaded` class the text
+search already uses, based on each entry's `pub_type` badge (`journal` matches `Journal` +
+`Magazine`; `conference` matches `Conference` + `Demo`; `Patent` isn't included in either). Button
+styling is in the `.pub-type-filter` block of `_sass/_publications.scss` (also a local override).
+To add a third bucket (e.g. a dedicated Patents button), add another `data-pub-filter` button and
+extend `typeFilterGroups` in `bibsearch.js`.
 
 ## Add a platform card (Platforms page)
 

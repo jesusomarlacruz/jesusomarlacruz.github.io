@@ -13,6 +13,13 @@ nav_order: 3
 
 {% include bib_search.liquid %}
 
+<!-- Journal / Conference type filter (local addition -- see assets/js/bibsearch.js) -->
+<div class="pub-type-filter">
+  <button type="button" class="btn btn-sm z-depth-0 active" data-pub-filter="all">All</button>
+  <button type="button" class="btn btn-sm z-depth-0" data-pub-filter="journal">Journals</button>
+  <button type="button" class="btn btn-sm z-depth-0" data-pub-filter="conference">Conferences</button>
+</div>
+
 <div class="publications">
 
 {% bibliography %}

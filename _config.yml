@@ -383,6 +383,14 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
+  # Without these, entries within a year group keep _bibliography/papers.bib's file
+  # order (articles first, then proceedings) instead of true newest-to-oldest order.
+  # `month` is missing on most @inproceedings entries (no conference month was
+  # verified for them -- see TODO.md on not inventing dates), so `name` is a
+  # deterministic (alphabetical-by-first-author) tiebreaker for same-year entries
+  # that would otherwise sort unpredictably against each other.
+  sort_by: [year, month, name]
+  order: [descending, descending, ascending]
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid

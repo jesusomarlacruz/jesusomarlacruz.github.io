@@ -60,11 +60,42 @@ want any of them back.
 - Removed on request (not an oversight): the MIMORPH_ZCU208 card, and all four "group tool"
   cards (UbiLocate, MultiLoc, Mikrotik-researcher-tools, MikroTik-mD-Track) since you're not
   part of those projects.
-- `_data/venues.yml` was not populated, so the venue badges (TWC, MobiSys, ISCAS, ...) on the
-  Publications page aren't clickable links yet. Optional enhancement -- see "Adding a new
-  publication" in `docs/CUSTOMIZE.md`.
+- `_data/venues.yml` now carries society/quartile/CORE-rank metadata (see "Venue metadata"
+  below) but still has no `url`/`color` entries, so the venue badges (TWC, MobiSys, ISCAS,
+  ...) aren't clickable links yet. Optional enhancement -- see "Adding a new publication" in
+  `docs/CUSTOMIZE.md`.
 - `_data/coauthors.yml` was not populated either, so co-author names aren't auto-linked to
   their own pages. Optional enhancement.
+
+## Venue metadata (`_data/venues.yml`) -- society / SJR quartile / CORE rank
+
+Added on request: a second badge under each publication's venue abbreviation, showing the
+sponsoring society (IEEE/ACM/USENIX/Elsevier/Springer) and, where it exists, a journal's SJR
+Best Quartile or a conference's CORE rank. Rendered by the local override
+[`_layouts/bib.liquid`](_layouts/bib.liquid) from this data file.
+
+- **Quartiles** are each journal/magazine's Scimago (scimagojr.com) "SJR Best Quartile" for
+  2025 (the most recent year available as of Nov 2026) -- verified via web search (Scimago
+  blocks direct automated fetches), cross-checked against independent aggregators citing the
+  same figure. **GetMobile** has none: it's an ACM SIGMOBILE magazine/newsletter, not indexed
+  on Scimago/Scopus.
+- **CORE ranks** were verified directly against the live CORE/ICORE portal
+  (portal.core.edu.au/conf-ranks) -- the ranking body rebranded CORE -> ICORE; the current
+  round is ICORE2026. Several venues deliberately show **no rank**, not an oversight:
+  - **ISAC**: brand-new (first edition Nov 2026), not yet ranked.
+  - **mmWaveSys**: a workshop; CORE doesn't rank it separately from a parent conference.
+  - **ICC**: last ranked CORE2018 (B); absent from every round since -- too stale to show as
+    current.
+  - **NSDI** and **Asilomar**: classified "National: USA" (a scope label, not a quality
+    tier) in every round since CORE2020 -- showing their old pre-2020 letter grade (NSDI: B:
+    Asilomar: C) would misrepresent the current classification.
+  - **SenSys** and **IPSN** show their last standalone rank (both CORE2023: A*), not
+    ICORE2026's "unranked: merged" placeholder -- CORE is folding SenSys/IPSN/IoTDI into one
+    ranking entry administratively, not re-evaluating either venue.
+- These will drift: Scimago reissues quartiles yearly, and CORE/ICORE re-ranks periodically
+  (the next round after ICORE2026 will eventually supersede it). Re-verify both sources
+  before trusting this file blindly a year or two from now, the same way DOIs and dates
+  elsewhere in this repo are meant to be checked rather than assumed.
 
 ## Projects page
 

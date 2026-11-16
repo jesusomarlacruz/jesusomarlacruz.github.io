@@ -2,7 +2,7 @@
 layout: page
 permalink: /service-teaching/
 title: service & teaching
-description: Teaching, TPC and reviewing service.
+description: Teaching and TPC service.
 nav: true
 nav_order: 6
 calendar: false
@@ -26,9 +26,5 @@ Full-time Professor, Electronic / Communications Department, **Universidad de Lo
 - TPC Member, IEEE WiSense: International Workshop on Pervasive Wireless Sensing and Edge Computing, 2024&ndash;2026
 - TPC Member, ACM mmWaveSys 2023 (First ACM Workshop on mmWave Sensing Systems and Applications)
 - TPC Member, ACM Emerging Wireless 2022
-
-**Journal reviewing**
-
-Active reviewer for: IEEE Transactions on Circuits and Systems I, IEEE Transactions on Circuits and Systems II, IEEE Transactions on VLSI Systems, IEEE Transactions on Networking, IEEE Transactions on Mobile Computing, IEEE Transactions on Wireless Communications, IEEE Communications Magazine, IEEE Journal on Selected Areas in Communications, Elsevier Computer Communications.
 
 See the [Group](/group/) page for current Ph.D. student supervision.

@@ -200,3 +200,7 @@ cv:
         position: TPC Member
       - company: "ACM Emerging Wireless 2022"
         position: TPC Member
+      - company: Journal Reviewer
+        position: Ad hoc reviewer
+        highlights:
+          - "IEEE Transactions on Circuits and Systems I, IEEE Transactions on Circuits and Systems II, IEEE Transactions on VLSI Systems, IEEE Transactions on Networking, IEEE Transactions on Mobile Computing, IEEE Transactions on Wireless Communications, IEEE Communications Magazine, IEEE Journal on Selected Areas in Communications, Elsevier Computer Communications."

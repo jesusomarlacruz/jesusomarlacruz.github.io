@@ -133,6 +133,12 @@ following `docs/INSTALL.md`:
   repo and neither affects GitHub Actions (Ubuntu), which builds normally.
 - A handful of JS files fail Terser minification locally ("SyntaxError") during
   `jekyll build`/`serve` but don't stop the build; this looks environment-related (Windows
-  Node/terser) rather than caused by anything in this site's own content, since it touches
-  `test/` files unrelated to my changes. Worth a sanity check against the GitHub Actions log
-  after the first push, but not something I'd block on.
+  Node/terser) rather than caused by anything in this site's own content. Confirmed this also
+  hits any `assets/js/*.js` file using ES module `import`/`export` (e.g. `bibsearch.js`,
+  `highlight-search-term.js`) -- when it fails, the file is just silently skipped (not written,
+  or left as a stale copy from an earlier successful local build) rather than breaking the
+  build. Confirmed via `curl` against the live site that GitHub Actions' Terser run doesn't have
+  this problem -- the deployed `bibsearch.js` is present and correct. Not something I'd block on,
+  but if a `bibsearch.js` change doesn't seem to take effect in a local `jekyll serve`/`build`,
+  delete `_site/assets/js/bibsearch.js` and rebuild to confirm it's actually this, rather than
+  assuming the override isn't being picked up.
